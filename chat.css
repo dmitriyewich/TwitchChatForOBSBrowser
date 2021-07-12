@@ -17,7 +17,9 @@ html, body,
 	background: transparent !important;
 }
 
-.stream-chat-header, .community-highlight, .channel-leaderboard, .chat-input, .simplebar-track vertical, .simplebar-track horizontal, .simplebar-scrollbar, .chat-paused-footer, .user-notice-line, .GBpnX {
+.stream-chat-header, .community-highlight, .channel-leaderboard, 
+.chat-input, .simplebar-track vertical, .simplebar-track horizontal, 
+.simplebar-scrollbar, .chat-paused-footer, .user-notice-line, .GBpnX {
 	display: none !important;
 }
 
@@ -25,7 +27,7 @@ html, body,
 	display: none !important;
 }
 
-.tw-root--theme-light, .chat-line__moderation, .tw-root--theme-light .chat-line__status, .tw-z-default, {
+.chat-line__moderation, .chat-line__status, .tw-z-default, .chat-welcome-message {
 	display: none !important;
 	visibility: hidden !important;
 	width: 0 !important;
@@ -116,7 +118,8 @@ html, body,
     }
 }
 
-.chat-line__message, .chat-line__moderation, .chat-line__status, .chat-line__username, .chat-author__display-name, 
+.chat-line__message, .chat-line__moderation, .chat-line__status, 
+.chat-line__username, .chat-author__display-name, 
 .chat-author__intl-login,
 .user-notice-line,
 .channel-points-reward-line  {
